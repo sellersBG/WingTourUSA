@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WingTourUSA</string>
+    <string name="score">1-9</string>
+    <string name="sauce">Sauce</string>
+    <string name="meat">Meatiness</string>
+    <string name="appearance">Appearance</string>
+    <string name="cook">Cook</string>
+    <string name="kick">Kick</string>
+</resources>
