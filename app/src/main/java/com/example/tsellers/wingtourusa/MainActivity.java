@@ -33,6 +33,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, ResultsActivity.class);
+                Bundle bundle = new Bundle();
+                bundle.putString("sauce", sauce.getText().toString());
+                bundle.putString("meat", meat.getText().toString());
+                bundle.putString("appearance", appearance.getText().toString());
+                bundle.putString("cook", cook.getText().toString());
+                bundle.putString("kick", kick.getText().toString());
+                bundle.putDouble("score", score);
+                i.putExtra("results", bundle);
+                startActivity(i);
             }
         });
     }
